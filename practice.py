@@ -7,4 +7,4 @@ for day in range(1, 10):
             file.write(day)
         os.system('git add .')
         os.system('git commit --date="'+day+'" -m "commit"')
-os.system('git push -u origin')
+os.system('git push -u origin master')
