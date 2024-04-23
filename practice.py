@@ -1,7 +1,7 @@
 import os
 from random import randint
-for day in range(1, 20):
-    for commits in range(0, randint(1, 5)):
+for day in range(1, 4):
+    for commits in range(0, randint(1, 4)):
         day = str(day)+' days ago'
         with open('file.txt', 'a')as file:
             file.write(day)
